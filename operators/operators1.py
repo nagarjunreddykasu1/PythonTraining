@@ -7,6 +7,4 @@ Operators:
 5. Identity operators
 6. Membership operators
 7. Bitwise operators
-
-
 '''
