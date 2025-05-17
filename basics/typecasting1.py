@@ -36,7 +36,7 @@ y = int(x)
 print(y, type(y))
 
 #Case5:  Converting int to bool (True/False)
-x = -123.75
+x = 0.00
 print(x, type(x))
 y = bool(x)
 print(y, type(y))

@@ -12,7 +12,7 @@ print(x.lower())
 x = "united states of america"
 print(x.capitalize())
 
-#4. title(): To capitalize the 1st character of each work in a string
+#4. title(): To capitalize the 1st character of each word in a string
 x = "united states of america"
 print(x.title())
 
@@ -24,7 +24,7 @@ print(x.swapcase())
 x = "Java is easy and Java is an object oriented programming"
 print(x.replace("Java", "Python"))
 
-#7. count(): To count the number of occurences of a sub-string or a character
+#7. count(): To count the number of occurances of a sub-string or a character
 x = "hello hello hello how are you?"
 print(x.count("hello"))
 print(x.count("h"))
@@ -46,7 +46,7 @@ print(x.format("Python", "Java","AWS"))
 
 #10. find(): It is used to check whether a substring is available or not, If found, it returns the 1st character index position else it returns -1
 x = "Python is easier than Java sdfsdhf Java"
-print(x.find("AWS"))
+print(x.find("is"))
 
 #11. split(): To split the string based on the delimiter
 x = "Good Evening USA"
@@ -64,7 +64,7 @@ print(x.startswith("Java"))
 x = "Python is easier than Java"
 print(x.endswith("Java"))
 
-#14. join(): To join the string within a colletion
+#14. join(): To join the string within a collection
 x = ["08","05","2025"]
 result = "-".join(x)
 print(result)
