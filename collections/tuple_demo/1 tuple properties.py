@@ -16,7 +16,7 @@ x=[10,20,20,10,30,40]
 2. negative index (backward index) --> index starts with -1
 
 6. Tuple is an Immutable object. modifications are not allowed
-x=[10,20,30]
+x=(10,20,30)
 x[0]=50
 
 7. Tuple can also be created using tuple() function
