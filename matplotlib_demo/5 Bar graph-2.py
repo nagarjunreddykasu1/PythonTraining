@@ -9,3 +9,6 @@ plt.ylabel("No of Votes")
 plt.title("ELECTIONS 2023")
 
 plt.show()
+
+
+#pay_QbalwCMXAh5tJj
