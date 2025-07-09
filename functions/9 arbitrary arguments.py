@@ -8,6 +8,7 @@ An asterisk (*) is placed before the argument name that holds multiple values
 
 """
 
+
 def display(name, *marks):
     print(marks, type(marks))
     print(name, type(name))
@@ -15,13 +16,13 @@ def display(name, *marks):
         print(p)
 
 
-display("Nagarjun",55,70,80,90,63,85)
+display("Nagarjun", 55, 70, 80, 90, 63, 85)
 
 
 def display(**details):
     print(details, type(details))
-    for k,v in details.items():
-        print(k,v)
+    for k, v in details.items():
+        print(k, v)
 
 
 display(cid=122, name="Nagarjun", bal=54343, city="Hyderabad")
